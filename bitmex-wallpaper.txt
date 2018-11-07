@@ -1,0 +1,17 @@
+// ==UserScript==
+// @name         BitMex Background Changeroni
+// @namespace    http://github.com/radeone
+// @version      0.1
+// @description  Change Bitmex Background to whatever you would like
+// @author       radeone
+// @match        https://www.bitmex.com/app/trade/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+     //document.body.style.background = "rgba(0, 5, 50, .5)"; or make it whatever flat bg you want
+    document.body.style.background = "black url(https://apod.nasa.gov/apod/image/1811/ngc6188TianLee.jpg)";
+    //document.body.style.backgroundSize = "cover"; add other stuff if you want.
+    //Tradingview divs are possible but are very nested.
+})();
